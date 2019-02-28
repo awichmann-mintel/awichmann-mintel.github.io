@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<meta charset=utf-8 />
+<title>Demo by Roko C.B.</title>
+</head>
+<body>
+  
+<script>
+    var imagesArray = ["dog.jpg", "fox.jpg", "mouse.jpg", "alligator.jpg", "fish.jpg", "parrot.jpg", "cat.jpg"];
+
+    function displayImage(){
+        var num = Math.floor(Math.random() * 7); // 0...6
+        document.canvas.src = 'http://placehold.it/150x150/cf5&text='+ imagesArray[num];
+    }
+</script>
+  
+<form name="imageForm">
+  <table border=3>
+  <tr>
+    <td>
+      <input onclick="displayImage();" type=button value="Display Random Image">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="blank.jpg" name="canvas" />
+    </td>
+  </tr>
+  </table>
+</form>
+</body>
+</html>
