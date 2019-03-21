@@ -1,0 +1,47 @@
+p{
+    color: purple;
+}
+#MyName {
+    display: inline-block;
+    background-color: gray;
+    width: 20%;
+    height: 35px;
+}
+#Nav {
+    background-color: green;
+    width: 40%;
+    height: 75px;
+}
+#Carousel {
+    background-color: pink;
+    width: 50%;
+    height: 50px;
+}
+#Site Map {
+    background-color: blue;
+    width: 20%;
+    height: 30px;
+}
+/* img{
+    width: 100%;
+    height: auto;
+} */
+#Image1{
+    background-image: url("PortfolioImages/Fashion1.jpeg")
+}
+#Image2{
+    background-image: url("PortfolioImages/Fashion2.jpeg");
+    
+}
+#Image3{
+    background-image: url("PortfolioImages/Fashion3.jpeg")
+}
+#Image4{
+    background-image: url("PortfolioImages/Fashion4.jpeg")
+}
+.Image{
+    height:500px;
+    width: 750px;
+    background-size: cover;
+    margin: auto;
+}
